@@ -1,0 +1,28 @@
+.content:hover .main_box{
+    transform:rotateY(-180deg);
+    transform-origin: left;
+}
+
+.content:hover .box_top_right{
+    transform:rotate(-90deg);
+    transform-origin: bottom left;
+}
+
+.content:hover .box_top_left{
+    transform:rotate(90deg);
+    transform-origin:bottom right;
+}
+
+.content:hover .box_bottom_right{
+    transform:rotate(90deg);
+    transform-origin:top left;
+}
+
+.content:hover .box_bottom_left{
+    transform:rotate(-90deg);
+    transform-origin:top right;
+}
+
+.content:hover .round_box{
+    transform:translate(-100%);
+}
